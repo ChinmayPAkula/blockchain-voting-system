@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+keys/*.json
+keys/*.pem
+keys/*.txt
+
+# Ganache local data
+.ganache/
+
+# OS
+Thumbs.db
