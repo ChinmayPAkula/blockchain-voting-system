@@ -1,3 +1,41 @@
+<<<<<<< HEAD
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local environment files
+.env
+.env.*
+.vscode/
+.cache/
+.env
+*.pdf
+*.docx
+*.lnk
+__pycache__/
+.pytest_cache/
+node_modules/
+.DS_Store
+Thumbs.db
+# Private keys and generated address data
+keys/
+*.key
+addresses.json
+
+# Generated contract artifacts
+VotingContract.json
+contract_address.txt
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -226,3 +264,4 @@ keys/*.txt
 
 # OS
 Thumbs.db
+>>>>>>> dcb5e393dd7f82887bb9afc77d7bc84d2d583c75
