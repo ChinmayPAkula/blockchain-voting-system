@@ -1,0 +1,73 @@
+2026-06-04 14:34:20,101 [INFO] ======================================================================
+2026-06-04 14:34:20,102 [INFO] BLOCKCHAIN VOTING ORACLE
+2026-06-04 14:34:20,102 [INFO] ======================================================================
+2026-06-04 14:34:20,178 [INFO]   Block number: 5
+2026-06-04 14:34:20,193 [ERROR] Error connecting to COM11: could not open port 'COM11': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2026-06-04 14:34:20,194 [ERROR] Fatal error: could not open port 'COM11': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2026-06-04 19:49:13,841 [INFO] ======================================================================
+2026-06-04 19:49:13,841 [INFO] BLOCKCHAIN VOTING ORACLE
+2026-06-04 19:49:13,841 [INFO] ======================================================================
+2026-06-04 19:49:13,853 [INFO] Connected to Ganache at http://127.0.0.1:7545
+2026-06-04 19:49:13,856 [INFO] Block number: 10
+2026-06-04 19:49:13,861 [INFO] Loaded VotingContract at 0xc6fDb230D15DaDa663A76b6E9870eCddA3E6EBe4
+2026-06-04 19:49:13,863 [INFO] Oracle initialized. Admin: 0x2E0C879ccAe90e76924fb08B82a133700a2F67f4
+2026-06-04 19:49:13,865 [INFO] Connected to COM12 at 9600 baud
+2026-06-04 19:49:15,866 [INFO] Oracle listening for votes...
+2026-06-04 19:49:15,866 [INFO] Waiting for Arduino data...
+2026-06-04 19:49:52,553 [WARNING] Invalid voter part: HARDWARE_ANOMALY:VOTER_INDEX:0
+2026-06-04 19:50:04,355 [INFO] Parsed: voter_9 voted for PARTY_B
+2026-06-04 19:50:04,466 [INFO] Processing vote from voter_9 for PARTY_B
+2026-06-04 19:50:04,627 [INFO] Vote recorded. Tx: 34aba910c286f2b63dcca0148cf29b2d6fec4982ff814cba1ce96148bce3ac08
+2026-06-04 19:50:04,628 [INFO] Votes recorded: 1, Errors: 1
+2026-06-04 19:59:31,595 [INFO] Parsed: voter_7 voted for PARTY_A
+2026-06-04 19:59:31,630 [INFO] Processing vote from voter_7 for PARTY_A
+2026-06-04 19:59:31,865 [INFO] Vote recorded. Tx: 61cf1d2e57e38c279055600997fcaff32e4fea4265fa819b049f28843706cf2c
+2026-06-04 19:59:31,865 [INFO] Votes recorded: 2, Errors: 1
+2026-06-04 20:00:06,068 [INFO] Parsed: voter_0 voted for PARTY_A
+2026-06-04 20:00:06,126 [INFO] Processing vote from voter_0 for PARTY_A
+2026-06-04 20:00:06,227 [ERROR] Error submitting vote to contract: {'message': 'VM Exception while processing transaction: revert Voter has already voted', 'stack': 'RuntimeError: VM Exception while processing transaction: revert Voter has already voted\n    at LegacyTransaction.fillFromResult (C:\\Program Files\\WindowsApps\\GanacheUI_2.7.1.0_x64__rb4352f0jd4m2\\app\\resources\\static\\node\\node_modules\\ganache\\dist\\node\\1.js:2:12745)\n    at Miner.<anonymous> (C:\\Program Files\\WindowsApps\\GanacheUI_2.7.1.0_x64__rb4352f0jd4m2\\app\\resources\\static\\node\\node_modules\\ganache\\dist\\node\\1.js:2:36703)\n    at async Miner.<anonymous> (C:\\Program Files\\WindowsApps\\GanacheUI_2.7.1.0_x64__rb4352f0jd4m2\\app\\resources\\static\\node\\node_modules\\ganache\\dist\\node\\1.js:2:35116)\n    at async Miner.mine (C:\\Program Files\\WindowsApps\\GanacheUI_2.7.1.0_x64__rb4352f0jd4m2\\app\\resources\\static\\node\\node_modules\\ganache\\dist\\node\\1.js:2:39680)\n    at async Blockchain.mine (C:\\Program Files\\WindowsApps\\GanacheUI_2.7.1.0_x64__rb4352f0jd4m2\\app\\resources\\static\\node\\node_modules\\ganache\\dist\\node\\1.js:2:60063)\n    at async Promise.all (index 0)\n    at async TransactionPool.emit (C:\\Program Files\\WindowsApps\\GanacheUI_2.7.1.0_x64__rb4352f0jd4m2\\app\\resources\\static\\node\\node_modules\\ganache\\node_modules\\emittery\\index.js:303:3)', 'code': -32000, 'name': 'RuntimeError', 'data': {'hash': '0x82192f771a42b5e60cddfb947efdf320ce093bebcb6d7b539e9e7aa401a29dd2', 'programCounter': 1653, 'result': '0x82192f771a42b5e60cddfb947efdf320ce093bebcb6d7b539e9e7aa401a29dd2', 'reason': 'Voter has already voted', 'message': 'revert'}}
+2026-06-04 20:00:06,229 [INFO] Votes recorded: 2, Errors: 2
+2026-06-04 20:08:44,781 [INFO] Oracle stopped by user
+2026-06-04 20:08:44,782 [INFO] Final stats - Votes: 2, Errors: 2
+2026-06-04 20:09:13,140 [INFO] ======================================================================
+2026-06-04 20:09:13,142 [INFO] BLOCKCHAIN VOTING ORACLE
+2026-06-04 20:09:13,143 [INFO] ======================================================================
+2026-06-04 20:09:13,147 [INFO] Connected to Ganache at http://127.0.0.1:7545
+2026-06-04 20:09:13,148 [INFO] Block number: 14
+2026-06-04 20:09:13,161 [INFO] Loaded VotingContract at 0x25764F8d9672180B4f2a615Cd0416786EC1e3cc6
+2026-06-04 20:09:13,164 [INFO] Oracle initialized. Admin: 0x2E0C879ccAe90e76924fb08B82a133700a2F67f4
+2026-06-04 20:09:13,167 [INFO] Connected to COM12 at 9600 baud
+2026-06-04 20:09:15,171 [INFO] Oracle listening for votes...
+2026-06-04 20:09:15,171 [INFO] Waiting for Arduino data...
+2026-06-04 20:09:16,825 [INFO] Oracle stopped by user
+2026-06-04 20:09:16,827 [INFO] Final stats - Votes: 0, Errors: 0
+2026-06-04 20:09:51,214 [INFO] ======================================================================
+2026-06-04 20:09:51,214 [INFO] BLOCKCHAIN VOTING ORACLE
+2026-06-04 20:09:51,214 [INFO] ======================================================================
+2026-06-04 20:09:51,218 [INFO] Connected to Ganache at http://127.0.0.1:7545
+2026-06-04 20:09:51,222 [INFO] Block number: 16
+2026-06-04 20:09:51,227 [INFO] Loaded VotingContract at 0x0F439cfD574dbA0e70EDC64eFB6CABF60375b99d
+2026-06-04 20:09:51,230 [INFO] Oracle initialized. Admin: 0x2E0C879ccAe90e76924fb08B82a133700a2F67f4
+2026-06-04 20:09:51,233 [INFO] Connected to COM12 at 9600 baud
+2026-06-04 20:09:53,234 [INFO] Oracle listening for votes...
+2026-06-04 20:09:53,234 [INFO] Waiting for Arduino data...
+2026-06-04 20:10:26,423 [WARNING] Voter index out of range: 0
+2026-06-04 20:15:47,838 [INFO] Oracle stopped by user
+2026-06-04 20:15:47,839 [INFO] Final stats - Votes: 0, Errors: 1
+2026-06-04 20:15:54,231 [INFO] ======================================================================
+2026-06-04 20:15:54,232 [INFO] BLOCKCHAIN VOTING ORACLE
+2026-06-04 20:15:54,232 [INFO] ======================================================================
+2026-06-04 20:15:54,235 [INFO] Connected to Ganache at http://127.0.0.1:7545
+2026-06-04 20:15:54,238 [INFO] Block number: 16
+2026-06-04 20:15:54,242 [INFO] Loaded VotingContract at 0x0F439cfD574dbA0e70EDC64eFB6CABF60375b99d
+2026-06-04 20:15:54,244 [INFO] Oracle initialized. Admin: 0x2E0C879ccAe90e76924fb08B82a133700a2F67f4
+2026-06-04 20:15:54,248 [INFO] Connected to COM12 at 9600 baud
+2026-06-04 20:15:56,248 [INFO] Oracle listening for votes...
+2026-06-04 20:15:56,248 [INFO] Waiting for Arduino data...
+2026-06-04 20:16:08,909 [INFO] Parsed: Voter 1 voted for PARTY_A
+2026-06-04 20:16:08,940 [INFO] Processing vote from Voter 1 for PARTY_A
+2026-06-04 20:16:08,997 [INFO] Vote recorded. Tx: 5322c46b2d0c8112a5d18736f642e1748c4196683de33cc98ec3dd74fc695139
+2026-06-04 20:16:08,997 [INFO] Voter 1 vote confirmed on blockchain
+2026-06-04 20:16:08,998 [INFO] Total votes on blockchain: 1 | Errors: 0
+2026-06-04 20:16:46,680 [INFO] Oracle stopped by user
+2026-06-04 20:16:46,681 [INFO] Final stats - Votes: 1, Errors: 0
