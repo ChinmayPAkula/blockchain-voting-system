@@ -95,10 +95,15 @@ contract VotingContract {
         require(isRegisteredVoter(voter), "Voter is not registered");
         require(!hasVoted[voter], "Voter has already voted");
         
-        bytes32 messageHash = keccak256(abi.encodePacked(
+        bytes32 rawHash = keccak256(abi.encodePacked(
             voter,
             partyName,
             block.number
+        ));
+
+        bytes32 messageHash = keccak256(abi.encodePacked(
+            "\x19Ethereum Signed Message:\n32",
+            rawHash
         ));
         
         require(
